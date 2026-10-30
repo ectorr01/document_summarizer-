@@ -29,6 +29,12 @@ python main.py
 3. Clicca **🚀 Riassumi**
 4. Usa **📋 Copia** per copiare il risultato negli appunti
 
+## 🖼️ Screenshot
+
+![Interfaccia principale](docs/images/screen1.png)
+
+![Riassunto generato](docs/images/screen2.png)
+
 ## 🔧 Configurazione
 
 In `main.py` (oppure tramite variabili d'ambiente `MODEL_URL` e `MODEL_NAME`):
@@ -48,6 +54,8 @@ MODEL_NAME = "qwen3.5-4b"
 document_summarizer/
 ├── main.py          # Codice principale con interfaccia GUI
 ├── requirements.txt # Dipendenze Python
+├── docs/
+│   └── images/      # Screenshot usati nel README
 └── README.md        # Questo file
 ```
 
