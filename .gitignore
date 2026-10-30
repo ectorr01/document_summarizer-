@@ -1,0 +1,39 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambienti virtuali
+.venv/
+venv/
+env/
+ENV/
+
+# Distribuzione / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Cache di test e strumenti
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+
+# Variabili d'ambiente e segreti
+.env
+.env.*
+!.env.example
+
+# Log
+*.log
+
+# Editor e sistema operativo
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
